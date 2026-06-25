@@ -17,6 +17,7 @@ Podcasts
 Books
 Tools and Platforms
 Templates and Checklists
+The 6 Layers of ITSM
 ANZ Resources
 YouTube Channels
 ---
@@ -155,6 +156,87 @@ Major Incident Management Runbook Template - Atlassian's runbook template and gu
 ITIL Process Templates — Process Street - Free process templates for common ITSM processes including change management, incident management, and problem management.
 ServiceNow Update Set Checklist - Official best practices for Update Set management and cross-instance promotion.
 CMDB Health Check Framework - ServiceNow community guidance on CMDB health scoring, completeness, and compliance metrics.
+The 6 Layers of ITSM
+Modern service management builds from trusted operational foundations up to AI-enabled value delivery. This framework maps ITSM as six interconnected layers — each dependent on the one below it. Mature organisations operate across all six simultaneously.
+Layer 1 — Operational Foundations
+The baseline without which nothing else works reliably.
+Service Catalogue — The formal menu of what IT offers. Without one, every request becomes a custom negotiation and SLAs are meaningless.
+CMDB Integrity — Accurate configuration data underpins incident routing, change impact analysis, and problem identification. If CMDB data is wrong, everything built on top of it is wrong.
+Asset Records — Hardware and software asset lifecycle management. Feeds CMDB, feeds financial reporting, feeds compliance.
+Knowledge Base — Captured resolutions, workarounds, and process documentation. The difference between a service desk that learns and one that repeats the same mistakes.
+KPI Baselines — You cannot improve what you do not measure. Baselines for incident volume, resolution time, FCR, change success rate, and CSAT must be established before any improvement programme begins.
+Resources:
+CMDB Health Check Framework — ServiceNow Community
+Knowledge Management — ITIL 4 Practice Guide
+KPI Baselines — HDI Support Center Metrics
+---
+Layer 2 — Support Execution
+Day-to-day service delivery — the engine room of ITSM.
+Request Fulfilment — Structured handling of service requests through the catalogue. Automation and self-service reduce cost per transaction.
+Incident Response — Restoring service as quickly as possible. FCR, MTTR, and escalation path discipline live here.
+Major Incidents — P1/P2 handling requires a separate process: bridge calls, dedicated incident managers, real-time stakeholder communication, and post-incident review.
+Problem Elimination — Finding and fixing root causes so incidents don't recur. The most neglected ITSM practice because it competes with incident volume for the same resources.
+Escalation Paths — Defined, documented, and tested escalation chains. "We'll figure it out" is not an escalation path.
+Resources:
+Major Incident Management Runbook — Atlassian
+Problem Management — ITIL 4
+Incident Management AI Tools 2026 — incident.io
+---
+Layer 3 — Change and Delivery
+How IT introduces change without breaking what works.
+Change Enablement — Risk-based change classification. Standard changes pre-approved and fast. Normal changes through CAB. Emergency changes with post-implementation review.
+Release Planning — Coordinating multiple changes into coherent releases. Reduces conflict between concurrent changes.
+Deployment Readiness — Go/no-go criteria before any production change. Checklist-driven, not gut-feel.
+Validation Checks — Post-implementation verification that the change achieved its objective and introduced no regressions.
+Rollback Planning — Every change needs a tested rollback procedure before it goes to CAB. "We'll figure it out" is not a rollback plan.
+Resources:
+ServiceNow Update Set Best Practices
+Change Management Templates — Process Street
+ITIL 4 Change Enablement Practice
+---
+Layer 4 — Experience and Access
+How users interact with IT services.
+Self-Service Portal — The front door for requests, incidents, and information. Adoption rate is the measure that matters — a portal nobody uses has no value.
+Employee Journeys — End-to-end service experience design, not just individual transactions. Onboarding, offboarding, and role-change journeys are the highest-value targets.
+Omnichannel Support — Consistent service experience across phone, chat, email, portal, and walk-up. Users expect the same quality regardless of channel.
+Access Requests — Joiner/mover/leaver automation. Identity lifecycle management integrated with HR systems reduces both cost and security risk.
+Feedback Loops — CSAT at ticket close, NPS for service experience, and structured post-incident surveys. Feedback that doesn't change behaviour is theatre.
+Resources:
+Atlassian ITSM Guide — Self-Service
+Employee Experience in ITSM — Freshservice
+---
+Layer 5 — Governance and Value
+How ITSM connects to business outcomes and accountability.
+Service Ownership — Every service has a named owner accountable for its performance, cost, and roadmap. Ownership without accountability is a title, not a role.
+SLA Management — Service Level Agreements defined with the business, not imposed on it. OLAs with internal teams. UCs with vendors. All three must be consistent.
+Policy Guardrails — Data protection, access control, change governance, and compliance policies embedded in ITSM processes — not bolted on after.
+Business Workflows — ITSM extended beyond IT to HR, Finance, Legal, and Facilities. Enterprise Service Management (ESM) is the natural evolution.
+Value Metrics — Cost per ticket, cost per service, business value delivered, and risk reduced. ITSM must speak business language to earn continued investment.
+Resources:
+ITIL 4 Strategic Leader
+COBIT 2019 — Governance Framework
+SLA Management — ITIL 4 Practice Guide
+---
+Layer 6 — AI and Automation
+Where ITSM is heading in 2025–2026 and beyond.
+Virtual Agents — AI-powered conversational interfaces handling L1 request fulfilment, incident triage, and knowledge retrieval without human intervention.
+Workflow Automation — Rule-based and AI-driven automation of repetitive ITSM tasks. Password resets, account provisioning, and standard change execution are the highest-volume targets.
+Predictive Triage — AI classification of incoming incidents by category, priority, and assignment group before a human reads the ticket. Reduces misrouting and SLA breach risk.
+AIOps Signals — Correlation of monitoring alerts, log events, and CMDB data to surface incident candidates before users report them. Proactive service management.
+Observability — Full-stack visibility across infrastructure, applications, and services. The data foundation that makes AIOps possible.
+Resources:
+ServiceNow Now Assist — AI ITSM
+Agentic AI in ITSM — ITSM.tools
+AIOps Platforms 2026 — Atomicwork
+AI Survey 2026 — ITSM.tools
+---
+Maturity Progression
+Organisations typically mature through these layers in order — you cannot skip Layer 1 and expect Layer 6 to work. Common failure pattern: investing in AI and automation (Layer 6) before CMDB integrity (Layer 1) is established, resulting in AI that acts on bad data.
+Maturity Stage	Primary Focus
+Reactive	Layer 2 — firefighting incidents
+Defined	Layers 1–3 — process and data foundation
+Managed	Layers 4–5 — experience and governance
+Optimising	Layer 6 — AI and automation on a solid base
 ANZ Resources
 Resources specific to ITSM practitioners working in Australia and New Zealand. Covers community organisations, government frameworks, local events, and regional policy context that global lists typically miss.
 Community and Professional Organisations
